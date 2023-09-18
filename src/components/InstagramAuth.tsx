@@ -5,10 +5,10 @@ const InstagramAuth: React.FC = () => {
 
   const handleRedirect = () => {
     // Define the Instagram OAuth URL with your client_id and redirect_uri
-    const instagramOAuthUrl =
+      const instagramOAuthUrl =
       "https://api.instagram.com/oauth/authorize" +
       "?client_id=763568429111393" + // Replace with your Instagram Client ID
-      "&https://grade-glimpse-emreselcuk1492.vercel.app/" + // Replace with your Redirect URI
+      "&redirect_uri=https://grade-glimpse-emreselcuk1492.vercel.app/" + // Replace with your Redirect URI
       "&scope=user_profile,user_media" +
       "&response_type=code";
 
