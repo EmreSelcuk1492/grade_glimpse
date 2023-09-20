@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import InstagramAuth from "../components/InstagramAuth"; // Import the InstagramAuth component
+import InstagramAuth from "GradePrediction/components/InstagramAuth";
 
 import styles from "./index.module.css";
 

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-const InstagramAuth: React.FC = () => {
-  const [redirecting, setRedirecting] = useState<boolean>(false);
+const InstagramAuth = () => {
+  const [redirecting, setRedirecting] = useState(false);
 
   const handleRedirect = () => {
     // Define the Instagram OAuth URL with your client_id and redirect_uri
-      const instagramOAuthUrl =
+    const instagramOAuthUrl =
       "https://api.instagram.com/oauth/authorize" +
       "?client_id=763568429111393" + // Replace with your Instagram Client ID
       "&redirect_uri=https://grade-glimpse-emreselcuk1492.vercel.app/" + // Replace with your Redirect URI
