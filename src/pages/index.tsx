@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+//import Link from "next/link";
 import InstagramAuth from "GradePrediction/components/InstagramAuth";
 
 import styles from "./index.module.css";
